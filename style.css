@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: red;
+}
+.container {
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    background-color: blue;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    margin: auto;
+}
+
+#A {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    background-color: brown;
+}
+
+#B {
+  grid-area: 7 / 2 / 8 / 8 ;
+  background-color: blueviolet;
+}
+
+#C {
+    grid-column: 7 / 8;
+    grid-row: 2 / 4;
+    background-color: green;
+}
+.container:hover {
+    background-color: aquamarine;
+}
+
+
